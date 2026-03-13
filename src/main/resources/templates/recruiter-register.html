@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<title>Recruiter Registration</title>
+</head>
+<body>
+
+<h2>Recruiter Registration</h2>
+
+<form th:action="@{/recruiter/save}" th:object="${recruiter}" method="post">
+
+Company Name:<br>
+<input type="text" th:field="*{companyName}"><br><br>
+
+Email:<br>
+<input type="email" th:field="*{email}"><br><br>
+
+Password:<br>
+<input type="password" th:field="*{password}"><br><br>
+
+Phone:<br>
+<input type="text" th:field="*{phone}"><br><br>
+
+Location:<br>
+<input type="text" th:field="*{location}"><br><br>
+
+<button type="submit">Register</button>
+
+</form>
+
+</body>
+</html>

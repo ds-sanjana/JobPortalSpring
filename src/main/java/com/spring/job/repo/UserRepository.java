@@ -1,0 +1,11 @@
+package com.spring.job.repo;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.spring.job.entity.User;
+
+public interface UserRepository extends JpaRepository<User, Long> {
+	User findByEmail(String email);
+	
+
+}
