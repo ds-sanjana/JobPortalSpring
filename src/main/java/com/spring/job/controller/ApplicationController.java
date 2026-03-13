@@ -14,7 +14,7 @@ import com.spring.job.service.ApplicationService;
 @Controller
 @RequestMapping("/application")
 public class ApplicationController {
-	@Autowired
+	@Autowired 
 	private ApplicationService aservice;
 	
 	@GetMapping("/apply")

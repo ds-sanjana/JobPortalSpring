@@ -8,4 +8,4 @@ public interface RecruiterRepository extends JpaRepository<Recruiter, Long>{
 	Recruiter findByEmail(String email);
 	
 
-}
+} 

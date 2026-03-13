@@ -18,7 +18,7 @@ public class RecruiterController {
     private RecruiterService rservice;
 
     @GetMapping("/register")
-    public String registerPage(Model model){
+    public String registerPage(Model model) {
         model.addAttribute("recruiter", new Recruiter());
         return "recruiter-register";
     }

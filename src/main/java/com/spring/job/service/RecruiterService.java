@@ -12,3 +12,4 @@ public interface RecruiterService {
     Recruiter getRecruiterById(Long id);
 
 }
+ 

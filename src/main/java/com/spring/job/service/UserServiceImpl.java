@@ -19,7 +19,7 @@ public class UserServiceImpl implements UserService{
 		// TODO Auto-generated method stub
 		urepo.save(user);
 		
-	}
+	} 
 
 	@Override
 	public List<User> getAllUsers() {

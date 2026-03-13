@@ -18,7 +18,7 @@ public class ApplicationServiceImpl implements ApplicationService{
 		// TODO Auto-generated method stub
 		arepo.save(application);
 		
-	}
+	} 
 
 	@Override
 	public List<Application> getAllApplications() {

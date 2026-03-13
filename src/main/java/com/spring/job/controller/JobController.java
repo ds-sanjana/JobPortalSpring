@@ -13,7 +13,7 @@ import com.spring.job.entity.Job;
 import com.spring.job.service.JobService;
 
 @Controller
-@RequestMapping("/jobs")
+@RequestMapping("/jobs") 
 public class JobController {
 	@Autowired
 	private JobService jservice;

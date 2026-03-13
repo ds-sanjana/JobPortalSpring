@@ -18,7 +18,7 @@ public class RecruiterServiceImpl implements RecruiterService{
 		// TODO Auto-generated method stub
 		rrepo.save(recruiter);
 		
-	}
+	} 
 
 	@Override
 	public List<Recruiter> getAllRecruiters() {

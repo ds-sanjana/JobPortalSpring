@@ -18,7 +18,7 @@ public class JobServiceImpl implements JobService {
 		// TODO Auto-generated method stub
 		jrepo.save(job);
 	}
-
+ 
 	@Override
 	public List<Job> getAllJobs() {
 		// TODO Auto-generated method stub

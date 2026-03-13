@@ -12,7 +12,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Entity
-@Data
+@Data 
 @NoArgsConstructor
 @AllArgsConstructor
 public class Recruiter {

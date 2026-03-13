@@ -15,7 +15,7 @@ import com.spring.job.service.UserService;
 @RequestMapping("/user")
 public class UserController {
 	@Autowired
-	private UserService uservice;
+	private UserService uservice; 
 	
 	@GetMapping("/register")
     public String registerPage(Model model){

@@ -10,3 +10,4 @@ public interface ApplicationService {
     List<Application> getAllApplications();
 
 }
+ 
